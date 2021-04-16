@@ -3,13 +3,14 @@
     /* font */
     font-family: "Averta CY", sans-serif;
 }
-    
+
 body {
     margin: 0;
 }
-    
+
+
 /* Clear floats after the columns */
-    
+
 .row:after {
     content: "";
     display: table;
@@ -101,35 +102,28 @@ body {
         width: 100%;
         font-size: 75%;
     }
-
     #header {
         width: 100%;
         background-color: white;
         font-size: 20px;
     }
-
     /* la clase four-column ha de tener ancho de 50% */
     .column-4 {
         width: 50%;
     }
-
     .relleno-lateral {
         padding-left: 5%;
         padding-right: 5%;
     }
-
     .relleno-columnas {
         padding-right: 0px;
     }
-
     .flex {
         display: block;
     }
-
     .padding-right {
         padding-right: 0%;
     }
-    
     .padding-left {
         padding-left: 0%;
     }
